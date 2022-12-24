@@ -1,0 +1,23 @@
+h1{
+    text-shadow: 40px 20px 5px rgb(179, 174, 174);
+    text-transform:uppercase ;
+}
+p{
+    color: rgb(105, 7, 7);
+    /* letter-spacing: 10px; */
+    /* line-height: 50px; */
+    text-align: justify;
+    text-decoration: blink;
+    text-indent: 50px;
+    white-space: normal;
+    word-spacing:20px ;
+}
+
+a{
+ text-decoration: none;   
+}
+
+
+#id{
+text-transform: inherit;
+}

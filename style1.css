@@ -1,0 +1,48 @@
+.container{
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+    /* font:italic bolder 800 10px ; */
+    /* font-family: 'Courier New', Courier, monospace;
+    font-style: italic; */
+    /* font-variant: ; */
+    font-weight: 900;
+}
+
+ul{
+    /* list-style: circle url("./assets/next.png"); */
+    /* list-style-image:url("./assets/next.png"); */
+    list-style: upper-roman;
+  
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+a:link{
+    color: rgb(7, 2, 2);
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}
+
+.background{
+    height: 300px;
+    width: 300px;
+    /* background-color: aqua; */
+    background-image: url("./assets/banner.jfif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
